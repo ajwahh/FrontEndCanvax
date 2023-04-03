@@ -17,6 +17,11 @@
           <ion-icon aria-hidden="true" :icon="settingsOutline" />
           <ion-label>Inställningar</ion-label>
         </ion-tab-button>
+
+        <ion-tab-button tab="tab4" href="/tabs/tab4">
+          <ion-icon aria-hidden="true" :icon="folderOutline" />
+          <ion-label>Filip testar</ion-label>
+        </ion-tab-button>
       </ion-tab-bar>
     </ion-tabs>
   </ion-page>
