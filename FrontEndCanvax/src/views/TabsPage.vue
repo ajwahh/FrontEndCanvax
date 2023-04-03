@@ -19,9 +19,10 @@
         </ion-tab-button>
 
         <ion-tab-button tab="tab4" href="/tabs/tab4">
-          <ion-icon aria-hidden="true" :icon="folderOutline" />
-          <ion-label>Filip testar</ion-label>
+          <ion-icon aria-hidden="true" :icon="heart" />
+          <ion-label>Kattskattmatt</ion-label>
         </ion-tab-button>
+      
       </ion-tab-bar>
     </ion-tabs>
   </ion-page>
@@ -29,5 +30,5 @@
 
 <script setup lang="ts">
 import { IonTabBar, IonTabButton, IonTabs, IonLabel, IonIcon, IonPage, IonRouterOutlet } from '@ionic/vue';
-import { calendarClearOutline, folderOutline, settingsOutline } from 'ionicons/icons';
+import { calendarClearOutline, folderOutline, settingsOutline,heart } from 'ionicons/icons';
 </script>

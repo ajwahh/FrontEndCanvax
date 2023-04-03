@@ -4,10 +4,15 @@
       <ion-header collapse="condense">
       </ion-header>
         <ion-list>
+          
+    
+          
           <ion-item>
+            <ion-button>Filips knapp!!</ion-button>
           </ion-item>
-          <ion-item>
-          </ion-item>
+          
+      
+        
         </ion-list>
     </ion-content>
   </ion-page>
