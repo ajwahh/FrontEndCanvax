@@ -1,3 +1,5 @@
+
+
 <template>
   <ion-page>
     <ion-content :fullscreen="true">
@@ -8,7 +10,7 @@
     
           
           <ion-item>
-            <ion-button>Filips knapp!!</ion-button>
+            <ion-checkbox label-placement="Filip">Label at the Start</ion-checkbox>
           </ion-item>
           
       
@@ -18,6 +20,15 @@
   </ion-page>
 </template>
 
-<script setup lang="ts">
+<script lang="ts">
 import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
+import { IonCheckbox } from '@ionic/vue';
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+    components: { IonCheckbox },
+  });
 </script>
+
+
+  
