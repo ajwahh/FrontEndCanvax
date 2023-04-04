@@ -1,19 +1,17 @@
 <template>
   <ion-page>
-    <ion-content>
-      <ion-list> ... </ion-list>
-
-      <ion-fab vertical="bottom" horizontal="end" slot="fixed">
-        <ion-fab-button @click="() => router.push('/new')">
-          <ion-icon :icon="add"></ion-icon>
-        </ion-fab-button>
-      </ion-fab>
-    </ion-content>
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-back-button></ion-back-button>
+        </ion-buttons>
+        <ion-title>Upload file to ionic</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content></ion-content>
   </ion-page>
 </template>
 
-<script setup>
-  import { add } from 'ionicons/icons';
-  import { useRouter } from 'vue-router';
-  const router = useRouter();
+<script setup lang="ts">
+  import { IonBackButton, IonButtons, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue';
 </script>
