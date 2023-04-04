@@ -1,34 +1,19 @@
-
-
 <template>
   <ion-page>
-    <ion-content :fullscreen="true">
-      <ion-header collapse="condense">
-      </ion-header>
-        <ion-list>
-          
-    
-          
-          <ion-item>
-            <ion-checkbox label-placement="Filip">Label at the Start</ion-checkbox>
-          </ion-item>
-          
-      
-        
-        </ion-list>
+    <ion-content>
+      <ion-list> ... </ion-list>
+
+      <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+        <ion-fab-button @click="() => router.push('/new')">
+          <ion-icon :icon="add"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
     </ion-content>
   </ion-page>
 </template>
 
-<script lang="ts">
-import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
-import { IonCheckbox } from '@ionic/vue';
-import { defineComponent } from 'vue';
-
-export default defineComponent({
-    components: { IonCheckbox },
-  });
+<script setup>
+  import { add } from 'ionicons/icons';
+  import { useRouter } from 'vue-router';
+  const router = useRouter();
 </script>
-
-
-  
