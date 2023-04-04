@@ -1,6 +1,7 @@
 <template>
   <ion-page>
     <ion-content :fullscreen="true">
+      <ion-button>DA336A</ion-button>
     </ion-content>
   </ion-page>
 </template>
