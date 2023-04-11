@@ -10,7 +10,7 @@
            <ion-col>Wed</ion-col>
            <ion-col>Thur</ion-col>
            <ion-col>Fri</ion-col>
-           <ion-col>Sundtagz</ion-col> 
+           <ion-col>Sundtaaaaagz</ion-col> 
            <ion-col>Sat</ion-col>
          </ion-row>
        </ion-grid>
