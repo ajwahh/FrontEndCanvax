@@ -52,3 +52,4 @@ setInterval(function(){
     // 3) Ta bort attributet id på aktiv bild
     currentImage.removeAttr("id");
 }, 3000)
+
